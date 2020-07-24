@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82e54288-f6f3-4bd1-884e-eec2c2439b7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ATE/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/model/BBC.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/model/BBC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/model/BERT_BiLSTM_CRF.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/model/BERT_BiLSTM_CRF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/BERT_BiLSTM_CRF/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/CSU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/CSU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/DE_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/DE_CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/Dual_Cross_Shared_LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/Dual_Cross_Shared_LSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/Dual_Cross_Shared_RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/Dual_Cross_Shared_RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/ReGU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/ReGU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/ReGU_bz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/ReGU_bz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/ReGU_jit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/ReGU_jit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/S_BiLSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/S_BiLSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/crf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/crf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/model/dynamic_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/model/dynamic_rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/preprocessing_pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/preprocessing_pro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/train_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/train_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/train_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/train_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/DOER/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/DOER/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN-softmax/model/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN-softmax/model/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN-softmax/model/imn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN-softmax/model/imn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN-softmax/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN-softmax/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/model/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/model/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/model/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/model/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/model/imn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/model/imn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/IMN/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/IMN/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/data/ATE_ABSC/cn_movie_reviews/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/data/ATE_ABSC/cn_movie_reviews/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/data/ATE_ABSC/cn_movie_reviews/reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/data/ATE_ABSC/cn_movie_reviews/reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/data/lexicon/aspects.lex" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/data/lexicon/aspects.lex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/model/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/model/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/model/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/model/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/model/imn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/model/imn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/train.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/train.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATE/patent/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ATE/patent/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BERT-pytorch-master/.idea/BERT-pytorch-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BERT-pytorch-master/.idea/BERT-pytorch-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMN-E2E-ABSA-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMN-E2E-ABSA-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/model/advimn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/model/advimn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/model/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/model/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/model/imn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/model/imn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/model_serve.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/model_serve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/preprocessing_pf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/preprocessing_pf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/preprocessing_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/preprocessing_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/train_adver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/train_adver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/train_pf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/train_pf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/train_pf.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/train_pf.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/train_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/train_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOOC/wx_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MOOC/wx_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/loss/CMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/loss/CMD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/loss/MMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/loss/MMD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/models/blstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/models/blstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/Modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/SubLayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/models/transformer/SubLayers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/preprocessing.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/preprocessing.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TL_exercise/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TL_exercise/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/LSTM/blstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/LSTM/blstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/attentionLayer/attentionLayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/attentionLayer/attentionLayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/attention/single.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/attention/single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/embedding/bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/embedding/bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/utils/gelu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/models/from_bert/utils/gelu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/sorted_data_acl/format_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/sorted_data_acl/format_change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/src/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/src/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Transfor_Learning/src/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/src/mian_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transfor_Learning/src/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/model/blstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/model/blstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/final_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/final_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/lexicon_building.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/lexicon_building.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/main_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/main_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/str_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/GloveLexiconBuilding/src/str_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/corpus/cover_implicit_new.label" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/data/corpus/cover_implicit_new.label" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/corpus/cover_implicit_new.sentence" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/data/corpus/cover_implicit_new.sentence" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/corpus/eval.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/data/corpus/eval.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/original_data/phone.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/pickle_data/features_glove.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/data/pickle_data/features_glove.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/pickle_data/result.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/data/result/wrong.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/data/result/wrong.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/attentionLayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/attentionLayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/attentionLayer_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/attentionLayer_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/blstm_elmo_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/blstm_elmo_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/just_elmo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/just_elmo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/loss_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/model/loss_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/cover_sentences_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/cover_sentences_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/delete_sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/delete_sentences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/final_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/final_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/lexicon_building_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/lexicon_building_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/main_batch_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/main_batch_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/visible.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/lexicon_building/src/visible.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/model/AGLR.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/model/AGLR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/model/AT_BLSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/model/AT_BLSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/model/BLSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/model/BLSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/model/attentionLayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/model/attentionLayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/AGLR_main_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/AGLR_main_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/AGLR_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/AGLR_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/get_wrong_sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/get_wrong_sentences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/main_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/main_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/s_main_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/s_main_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce/src/s_proprecessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/pingce/src/s_proprecessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/embedding/implicate_lexicon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/lexicon/process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/model/attentionLayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/model/lexicon_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/model/lexicon_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/model/lrp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/get_wrong_sentences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/main_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/model_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/proprecessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/s_main_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/s_proprecessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/pingce_local/src/str_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/yutils/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/yutils/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corpus_building/yutils/str_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../corpus_building/yutils/str_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jn_project/models/key_sentences_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jn_project/models/key_sentences_extractor.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ABSA$ReGU.coverage" NAME="ReGU Coverage Results" MODIFIED="1575270255598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/layers" />
+    <SUITE FILE_PATH="coverage/ABSA$test.coverage" NAME="test Coverage Results" MODIFIED="1584167994051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ABSA$multi_layer_cnn.coverage" NAME="multi_layer_cnn Coverage Results" MODIFIED="1584150896630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/layers" />
+    <SUITE FILE_PATH="coverage/ABSA$train.coverage" NAME="train Coverage Results" MODIFIED="1574233142619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ABSA$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1575269780861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/jit" />
+    <SUITE FILE_PATH="coverage/ABSA$CRF.coverage" NAME="CRF Coverage Results" MODIFIED="1574238848173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/layers" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="578300011">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="ignore" value="1" />
+          <entry key="md" value="9" />
+          <entry key="png" value="7" />
+          <entry key="py" value="58" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="7" />
+          <entry key="Markdown" value="9" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="22" />
+          <entry key="dummy" value="33" />
+          <entry key="gitignore" value="9" />
+          <entry key="md" value="722" />
+          <entry key="py" value="2537" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="722" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="2559" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/layers/point_wise_feed_forward.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1065">
+                <caret line="82" selection-start-line="82" selection-end-line="82" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/layers/multi_layer_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>start_tag_idx</find>
+      <find>parChecker</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/models/layers/point_wise_feed_forward.py" />
+        <option value="$PROJECT_DIR$/models/lcf_bert.py" />
+        <option value="$PROJECT_DIR$/models/DOER.py" />
+        <option value="$PROJECT_DIR$/models/AOA.py" />
+        <option value="$PROJECT_DIR$/models/MGAN.py" />
+        <option value="$PROJECT_DIR$/models/IAN.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/models/AS/MGAN.py" />
+        <option value="$PROJECT_DIR$/models/AS/IAN.py" />
+        <option value="$PROJECT_DIR$/models/layers/CSU.py" />
+        <option value="$PROJECT_DIR$/models/layers/CRF.py" />
+        <option value="$PROJECT_DIR$/models/layers/ReGU_jit.py" />
+        <option value="$PROJECT_DIR$/models/AE_AS/DOER.py" />
+        <option value="$PROJECT_DIR$/models/AE_AS/DOER_LSTM.py" />
+        <option value="$PROJECT_DIR$/models/layers/ReGU.py" />
+        <option value="$PROJECT_DIR$/models/layers/dynamic_rnn.py" />
+        <option value="$PROJECT_DIR$/models/AS/AEN.py" />
+        <option value="$PROJECT_DIR$/models/AE/DE_CNN.py" />
+        <option value="$PROJECT_DIR$/embeddings/README.md" />
+        <option value="$PROJECT_DIR$/models/layers/squeeze_embedding.py" />
+        <option value="$PROJECT_DIR$/models/layers/regu.py" />
+        <option value="$PROJECT_DIR$/models/layers/attention.py" />
+        <option value="$PROJECT_DIR$/models/AE_AS/imn.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/models/layers/multi_layer_cnn.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ABSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ABSA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ABSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ABSA" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ABSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ABSA" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/layers" />
+      <recent name="$PROJECT_DIR$/models/AE_AS" />
+      <recent name="$PROJECT_DIR$/embeddings" />
+      <recent name="$PROJECT_DIR$/dataset/AE_AS/SemEval_2014_laptop" />
+      <recent name="$PROJECT_DIR$/models/AE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/dataset/AE_AS" />
+      <recent name="$PROJECT_DIR$/models/AS" />
+      <recent name="$PROJECT_DIR$/models/AE_AS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="CRF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/layers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/layers/CRF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReGU" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/layers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/layers/regu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/jit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/jit/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_layer_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/layers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/layers/multi_layer_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ReGU" />
+      <item itemvalue="Python.CRF" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.multi_layer_cnn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.multi_layer_cnn" />
+        <item itemvalue="Python.ReGU" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.CRF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82e54288-f6f3-4bd1-884e-eec2c2439b7a" name="Default Changelist" comment="" />
+      <created>1574041332278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574041332278</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13797314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32810867" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940608" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7628004" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pytorch_transformers/modeling_bert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/lcf_bert.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/modules/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="490" column="8" selection-start-line="490" selection-start-column="8" selection-end-line="490" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/CRF.py" />
+    <entry file="file://$PROJECT_DIR$/embeddings/amazon_reviews_small.100d.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AS/IAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/AE_AS/SemEval_2014_laptop/laptops_2014_test_mpqa.gold.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/de_cnn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/atae-lstm.png" />
+    <entry file="file://$PROJECT_DIR$/models/layers/dynamic_rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AS/AEN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/jit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="1436" column="70" lean-forward="true" selection-start-line="1436" selection-start-column="70" selection-end-line="1436" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cabasc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/han.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/td-lstm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tnet_lf.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/csu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AE_AS/doer_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/regu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="144" column="56" selection-start-line="144" selection-start-column="56" selection-end-line="144" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/squeeze_embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AS/MGAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AE/de_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AE_AS/imn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AS/AOA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/attention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AE_AS/doer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/multi_layer_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1065">
+            <caret line="82" selection-start-line="82" selection-end-line="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embeddings/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/layers/point_wise_feed_forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
